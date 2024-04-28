@@ -1,0 +1,31 @@
+.search {
+  @apply relative
+  shrink
+  grow
+  basis-auto
+  mx-4
+  max-w-[420px];
+
+  & input {
+    @apply p-2 
+    border 
+    rounded-md 
+    leading-6 
+    focus:border-violet-900 
+    focus:border-2 
+    focus-visible:outline-none
+    w-full;
+  }
+
+  & button {
+    @apply absolute 
+    top-0 
+    bottom-0 
+    right-0 
+    rounded-md 
+    focus:border-violet-900 
+    focus:border-2 
+    focus-visible:outline-none
+    px-2;
+  }
+}

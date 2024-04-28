@@ -1,0 +1,13 @@
+.button {
+  @apply p-2
+    rounded-md
+    border;
+
+  &.default {
+    @apply hover:bg-violet-900 
+    bg-white 
+    hover:text-white 
+    text-violet-900  
+    border-violet-900;
+  }
+}
