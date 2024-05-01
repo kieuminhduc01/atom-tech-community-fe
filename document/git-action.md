@@ -57,8 +57,12 @@ git log --oneline --grep "^feat\|^fix"
 
 ## Pull request flow
 
- - Create a pull request and wait for review
+- Rebase from base branch 
 
- - After review and comment click Approve
- 
- - After approval click Merge
+- Resolve all conflicts
+
+- Create a pull request and wait for review
+
+- After review and comment click Approve
+
+- After approval click Merge
