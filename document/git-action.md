@@ -36,3 +36,29 @@ Browsing history
 ```bash
 git log --oneline --grep "^feat\|^fix"
 ```
+
+# Git Flow
+
+## Branches
+
+- There are some branches that contain own responsible
+
+  - Main: for production environments
+  
+  - Release: prepare before release in production
+
+  - Develope: for main development branch
+
+  - Feature/...: for new features
+
+  - HotFix: for hot fix in main
+
+  - FixBug-[summary]: for bug fixes
+
+## Pull request flow
+
+ - Create a pull request and wait for review
+
+ - After review and comment click Approve
+ 
+ - After approval click Merge
