@@ -29,3 +29,12 @@
     px-2;
   }
 }
+
+.input {
+  @apply border
+  focus:border-2
+  rounded-md
+  p-2
+  focus:border-violet-900
+  focus-visible:outline-none;
+}
